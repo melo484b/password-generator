@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="PasswordGenerator"
+config/name="Password Generator"
 run/main_scene="res://scene/PasswordWindow.tscn"
 run/low_processor_mode=true
 boot_splash/show_image=false
@@ -26,7 +26,7 @@ settings/fps/force_fps=15
 
 [display]
 
-window/size/width=264
+window/size/width=280
 window/size/height=60
 window/size/resizable=false
 window/vsync/use_vsync=false
