@@ -35,6 +35,8 @@ public class PasswordGenerator : MarginContainer
 			password += characterStrings[stringIndex][characterIndex];
 		}
 		textBox.Text = password;
+		textBox.SelectAll();
+		textBox.GrabFocus();
 	}
 	
 }
