@@ -1,0 +1,46 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+
+config/name="PasswordGenerator"
+run/main_scene="res://scene/PasswordWindow.tscn"
+boot_splash/show_image=false
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+boot_splash/bg_color=Color( 0, 0, 0, 1 )
+config/icon="res://art/password_generator_icon.png"
+config/windows_native_icon="res://art/password_generator_icon.ico"
+
+[display]
+
+window/size/width=264
+window/size/height=60
+window/size/resizable=false
+window/vsync/use_vsync=false
+window/energy_saving/keep_screen_on=false
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[mono]
+
+project/assembly_name="PasswordGenerator"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/intended_usage/framebuffer_allocation=0
+quality/intended_usage/framebuffer_allocation.mobile=0
+environment/default_environment="res://default_env.tres"
