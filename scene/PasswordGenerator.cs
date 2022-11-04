@@ -11,11 +11,11 @@ public class PasswordGenerator : MarginContainer
 	
 	private string[] characterStrings = {LOWER_CASE_LETTERS, UPPER_CASE_LETTERS, NUMBERS, SYMBOLS};
 	
-	TextEdit textBox;
+	LineEdit textBox;
 	
 	public override void _Ready()
 	{
-		textBox = (TextEdit) GetNode("PanelContainer/MarginContainer/VBoxContainer/TextBox");
+		textBox = (LineEdit) GetNode("PanelContainer/MarginContainer/VBoxContainer/TextBox");
 		GeneratePassword();
 	}
 
