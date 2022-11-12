@@ -28,7 +28,7 @@ public class PasswordGenerator : MarginContainer
 	{
 		Random random = new Random();
 		string password = "";
-		for (int i = 0; i <= MAX_LENGTH; i++)
+		for (int i = 0; i < MAX_LENGTH; i++)
 		{
 			int stringIndex = random.Next(characterStrings.Length);
 			int characterIndex = random.Next(characterStrings[stringIndex].Length);
